@@ -27,6 +27,7 @@ const adClient = new GoogleAdsApi({
     client_id: process.env.OAUTH_CLIENT_ID,
     client_secret: process.env.OAUTH_CLIENT_SECRET,
     developer_token: process.env.DEVELOPER_TOKEN,
+    login_customer_id: process.env.LOGIN_CUSTOMER_ID
   });
 
 //Handle Login / Registration via Google
